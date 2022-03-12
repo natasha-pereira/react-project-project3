@@ -1,0 +1,93 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #05445E;
+}
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+.menu, .quiz, .Endscreen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #05445E;
+  width: 500px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.menuInput {
+  margin: 15px;
+  padding-left: 10px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+}
+
+.menuBtn, .options button {
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #189AB4;
+  width: 200px;
+  height: 50px;
+  border: none;
+  color: #D4F1F4;
+}
+
+.menuBtn:hover, .options button:hover, .quizBtn1:hover, .quizBtn2:hover  {
+  background-color: #D4F1F4;
+  color: black;
+  /* border-color: #05445E; */
+}
+
+.questions, .end {
+  font-size: 22px;
+  color: #D4F1F4;
+  padding: 5px;
+  width: 450px
+}
+
+.options button:focus {
+  background-color: #D4F1F4;
+  color: #05445E;
+}
+
+.quizBtn1, .quizBtn2 {
+  margin: 5px;
+  border-radius: 10px;
+  background-color: #D4F1F4;
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  border: none;
+  color: #05445E;
+}
+
+.quizBtn1:hover, .quizBtn2:hover  {
+  background-color: #D4F1F4;
+  color: black;
+  border-style: double;
+  border-color: #05445E;
+  border-width: 6px;
+}
+
+.head1 {
+  color: #D4F1F4 ;
+}
+
